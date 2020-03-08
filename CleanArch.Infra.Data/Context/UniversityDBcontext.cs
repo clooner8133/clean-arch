@@ -16,5 +16,6 @@ namespace CleanArch.Infra.Data.Context
         }
 
         public DbSet<Course> MyProperty { get; set; }
+        public IEnumerable<Course> Course { get; internal set; }
     }
 }
